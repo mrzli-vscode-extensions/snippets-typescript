@@ -1,0 +1,20 @@
+{
+  "Readonly arbitrary type array": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rta",
+    "description": "Readonly array of arbitrary type items.",
+    "body": "readonly ${1:string}[]"
+  },
+  "Readonly string array": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rsa",
+    "description": "Readonly array of string items.",
+    "body": "readonly string[]"
+  },
+  "Readonly number array": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rna",
+    "description": "Readonly array of number items.",
+    "body": "readonly number[]"
+  }
+}

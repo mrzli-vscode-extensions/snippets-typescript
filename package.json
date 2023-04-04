@@ -1,0 +1,25 @@
+{
+  "name": "snippets-typescript",
+  "displayName": "Snippets TypeScript",
+  "description": "Code snippets for TypeScript",
+  "version": "0.0.1",
+  "publisher": "goran-mrzljak",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrzli-vscode-extensions/snippets-typescript"
+  },
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescript,typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
