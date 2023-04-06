@@ -2,7 +2,7 @@
   "name": "snippets-typescript",
   "displayName": "Snippets TypeScript",
   "description": "Code snippets for TypeScript",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "goran-mrzljak",
   "repository": {
     "type": "git",
@@ -17,7 +17,11 @@
   "contributes": {
     "snippets": [
       {
-        "language": "typescript,typescriptreact",
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
